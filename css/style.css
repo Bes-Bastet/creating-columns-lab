@@ -1,6 +1,4 @@
 body, html {
-  width: 100%;
-  height: 100%;
   font-family: Apple Chancery, cursive;
   margin: 0 auto;
   display: block;
@@ -49,3 +47,20 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
+.column {
+  width: 30%;
+  display: inline-block;
+  
+ }
+ .small {
+    width: 100%;
+    height: 100%;
+ }
+
+.med {
+  width: 203.5%;
+}
+
+.large {
+  width: 303%;
+  }
